@@ -1,3 +1,26 @@
 .App {
   text-align: center;
 }
+
+
+.TodoWrapper {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.TodoForm{
+  width: 100%;
+  height: 95%;
+  background-color: pink;
+}
+
+.Todo {
+  width: 100%;
+  height: 95%;
+  background-color: yellow;
+
+}
