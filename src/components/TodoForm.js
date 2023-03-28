@@ -6,9 +6,10 @@ const TodoForm = ({addTodo}) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    addTodo(value);
+    //Takes state/value from the form to the wrapper(parent)
+    addTodo(value)
 
-    setValue("")
+
   }
 
   return (
