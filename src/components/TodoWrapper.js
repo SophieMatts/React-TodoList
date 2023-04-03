@@ -61,9 +61,6 @@ const TodoWrapper = () => {
         editTodo={editTodo} />)
       ))}
 
-
-
-
     </div>
   );
 }
